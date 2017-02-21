@@ -1,0 +1,14 @@
+<!doctype html>
+<head>
+  {% include 'inline-styles' %}
+  {{ content_for_header }}
+</head>
+<main id="application" class="loading">
+  {% include 'loader' %}
+</main>
+{{ content_for_layout }}
+{% if settings.production %}
+<script async src="{{ 'app.js' | asset_url }}"></script>
+{% else %}
+<script async src="https://trumped-up.ngrok.io/public/app.js"></script>
+{% endif %}

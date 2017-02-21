@@ -1,0 +1,6 @@
+*.DS_Store
+public
+node_modules
+assets/app.js
+theme/config/settings_data.json
+quickshot.json

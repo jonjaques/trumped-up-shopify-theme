@@ -1,0 +1,30 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Trumped Up",
+    "theme_author": "Jon Jaques",
+    "theme_version": "1.0.0"
+  },
+  {
+    "name": "Environment",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "production",
+        "label": "Production",
+        "default": false
+      }
+    ]
+  },
+  {
+    "name": "Favicon",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon image",
+        "info": "Will be scaled down to 32 x 32px"
+      }
+    ]
+  }
+]
